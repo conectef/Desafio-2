@@ -1,7 +1,6 @@
 {
   "name": "desafio-2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +13,12 @@
     "mocha": "^11.7.2"
   },
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
     "@cypress/puppeteer": "^0.1.7",
+    "cypress": "^15.3.0",
     "cypress-file-upload": "^5.0.8",
     "puppeteer": "^24.22.3"
-  }
+  },
+  "description": ""
 }

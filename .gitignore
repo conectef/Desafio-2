@@ -1,1 +1,45 @@
+# Dependências
 node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de lock (se usar Yarn, mantenha só um)
+package-lock.json
+.pnpm-debug.log
+
+# Diretórios de build/output
+dist/
+build/
+out/
+coverage/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos temporários do editor/OS
+.DS_Store
+Thumbs.db
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/reports/
+
+# Puppeteer (downloads ou caches opcionais)
+puppeteer-tests/downloads/
+.puppeteer-cache/
+
+# VSCode e IDEs
+.vscode/
+.idea/
+
+# Arquivos de SO
+*.swp
+*.swo
