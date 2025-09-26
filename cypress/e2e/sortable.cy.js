@@ -37,7 +37,7 @@ describe('Desafio automação sortable', () => {
         'Three': 3,
         'Four': 4,
         'Five': 5,
-        'Six': 6
+        'Six': 6,
       }
 
 // Função para arrastar um item até o índice desejado
