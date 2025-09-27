@@ -4,6 +4,27 @@ Este repositório contém uma coleção de **desafios de automação de testes**
 O objetivo é demonstrar habilidades práticas em **automação de testes de interface e lógica**.
 
 ---
+## 📂 Estrutura do projeto
+
+project/
+├─ cypress/                     # Testes end-to-end com Cypress
+│  ├─ e2e/                      # Cenários de teste
+│  │  ├─ acessar-site.cy.js
+│  │  ├─ sortable.cy.js         # Teste de lista ordenável
+│  │  ├─ usuarios.feature       # Testes BDD de gerenciamento de usuários
+│  │  └─ widget.cy.js           # Teste de barra de progresso
+│  ├─ fixtures/
+│  └─ support/
+│     └─ step_definitions/      # Step definitions dos cenários BDD
+│        └─ usuarios.steps.js
+│        └─ commands.js
+├─ puppeteer-tests/              # Automação em Node.js com Puppeteer
+│  └─ janela-test.js             # Teste de abertura de janela e validação de conteúdo
+├─ .gitignore                    # Arquivos e pastas ignorados pelo Git
+├─ package.json                  # Dependências do projeto
+├─ package-lock.json             # Controle de versões das dependências
+└─ README.md                     # Documentação do projeto
+
 
 ## 📂 Estrutura dos Desafios
 
